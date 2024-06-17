@@ -1,0 +1,2774 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+}
+
+#page-1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+}
+
+#video1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#video1>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-blend-mode: screen;
+}
+
+#overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.671);
+    position: absolute;
+    position: relative;
+}
+
+#navbar {
+    height: 15vh;
+    width: 100%;
+    background-color: #000000e8;
+    display: flex;
+    position: fixed;
+
+
+}
+
+#navbar-part1 {
+    width: 15%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navbar-part1 img {
+    height: 100%;
+
+}
+
+#navbar-part2 {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(43, 255, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#navbar-part2 a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar-part3 {
+    width: 35%;
+    height: 100%;
+    /* background-color: rgb(0, 183, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+    gap: 20px;
+
+}
+
+#navbar-part3 a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#navbar-part3 button {
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: black;
+    color: #fff;
+
+}
+
+#navbar-part3 button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+#page-1middle {
+    width: 50%;
+    height: 20%;
+    /* background-color: red; */
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+
+#learnabout button {
+    padding: 6px 12px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 2px solid #ffff;
+    position: absolute;
+    top: 85%;
+    left: 20%;
+}
+
+#learnabout button:hover {
+    background-color: white;
+    color: #000;
+}
+
+#pausevideo button {
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 85%;
+    left: 87%;
+    font-weight: 500;
+}
+
+#pausevideo button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ******************************#page-2********************************* */
+/* ******************************#page-2********************************* */
+
+#page-2 {
+    width: 100%;
+    height: 40vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    font-size: 18px;
+}
+
+#page-2box-1 {
+    width: 350px;
+    height: 200px;
+    /* background-color: red; */
+    color: #fff;
+    position: relative;
+}
+
+#page-2box-2 {
+    width: 350px;
+    height: 200px;
+    /* background-color: yellow; */
+    color: #fff;
+}
+
+#page-2box-3 {
+    width: 360px;
+    height: 200px;
+    /* background-color: blue; */
+    color: #fff;
+}
+
+#page-2horizantalbar {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* ***********************************page-3******************************** */
+/* ***********************************page-3******************************** */
+
+#page-3 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+
+}
+
+#page-3nav {
+    width: 100%;
+    height: 15vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+#page3-navright h4 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#page3-navleft h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#page-3center {
+    width: 100%;
+    height: 70vh;
+    /* background-color: hotpink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+
+}
+
+#page-3box1 {
+    width: 300px;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-3box2 {
+    width: 300px;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-3box3 {
+    width: 300px;
+    height: 400px;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-3box4 {
+    width: 300px;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+
+#page-3box1inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/302c502a-f6d8-4d90-93ca-ee1289ebc2b3/gpt-4-api-general-availability-and-final-update-to-the-completions-api.jpg?trim=0,0,0,0&width=800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-3box2inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/01aa49ea-1f3b-4340-b1b0-ff30857e6058/introducing-superalignment.png?trim=0,0,0,0&width=800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-3box3inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/b38aaf7d-ec65-4194-a4c0-db5131f30dae/3J2A3934_3200.jpg?trim=0,653,0,746&width=800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-3box4inside {
+    width: 300px;
+    height: 280px;
+
+    background-image: url(https://images.openai.com/blob/c74babc6-9e81-4a9c-bd5d-76e6c869aac4/OpenAI_London_Office_Stuart_Bailey_Photography_2023-06-14_0049.jpg?trim=0,1354,0,613&width=800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#page-3box1>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box2>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box3>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box4>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box1>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box2>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box3>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box4>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3horizantalbar {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* ***********************************page-4********************************* */
+/* ***********************************page-4********************************* */
+
+#page-4 {
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+}
+
+#page-4left {
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    color: #fff;
+    padding-top: 10px;
+}
+
+#page-4left h1 {
+
+    font-size: 55px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+#page-4right {
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    color: #fff;
+    padding-top: 25px;
+
+}
+
+#page-4right {
+    font-size: 26px;
+    /* text-align: justify; */
+    padding-left: 15px;
+}
+
+#page-4right h5 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* **************************page-5************************************** */
+/* **************************page-5************************************** */
+
+#page-5 {
+    width: 100%;
+    height: 200vh;
+    background-color: #000;
+}
+
+#page-3image {
+    width: 100%;
+    height: 180vh;
+    background-image: url(https://images.openai.com/blob/971cb9d4-66e4-46b0-95d8-f3b57931b08e/stangel-2022-0052.jpg?trim=0,0,0,0&width=2600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#page-5horizantal {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* **************************page-6************************************** */
+/* **************************page-6************************************** */
+#page-6 {
+    width: 100%;
+    height: 120vh;
+    background-color: #000;
+}
+
+#page-6nav {
+    width: 100%;
+    height: 30vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+#page6-navright {
+    width: 50%;
+    height: 30vh;
+    /* background-color: blue; */
+}
+
+#page6-navleft {
+    width: 50%;
+    height: 30vh;
+    /* background-color: red; */
+}
+
+#page6-navright {
+    padding-top: 30px;
+    font-size: 27px;
+    /* background-color: rebeccapurple; */
+    font-weight: 300;
+}
+
+#page6-navleft h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#page6-navright h5 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+#page-6center {
+    width: 100%;
+    height: 70vh;
+    /* background-color: hotpink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+
+}
+
+#page-6box1 {
+    width: 300px;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-6box2 {
+    width: 300px;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-6box3 {
+    width: 300px;
+    height: 400px;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-6box4 {
+    width: 300px;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+
+#page-6box1inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/d4f299e7-2084-43d6-80f5-40e9404f15e2/frontier-ai-regulation-managing-emerging-risks-to-public-safety.png?trim=0,0,0,0&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-6box2inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/373bf52a-5373-4d4e-88fe-7fbf738ec6d1/improving-mathematical-reasoning-with-process-supervision.jpg?trim=0,3439,0,144&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-6box3inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/e1afc745-b554-4785-ad0e-8f9c65e1274f/language-models-can-explain-neurons-in-language-models.png?trim=0,0,0,0&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-6box4inside {
+    width: 300px;
+    height: 280px;
+
+    background-image: url(https://images.openai.com/blob/b5b6da55-f60d-43b3-a40f-902b9baf57e0/gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models.png?width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#page-6box1>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box2>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box3>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box4>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box1>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box2>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box3>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box4>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6horizantalbar {
+    width: 100%;
+    height: 2px;
+}
+
+/* *****************************************page-7*************************************** */
+/* *****************************************page-7*************************************** */
+
+#page-7 {
+    width: 100%;
+    height: 120vh;
+    background-color: #000;
+}
+
+#page-7nav {
+    width: 100%;
+    height: 30vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+#page7-navright {
+    width: 50%;
+    height: 30vh;
+    /* background-color: blue; */
+}
+
+#page7-navleft {
+    width: 50%;
+    height: 30vh;
+    /* background-color: red; */
+}
+
+#page7-navright {
+    padding-top: 30px;
+    font-size: 27px;
+    /* background-color: rebeccapurple; */
+    font-weight: 300;
+}
+
+#page7-navleft h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#page7-navright h5 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+#page-7center {
+    width: 100%;
+    height: 70vh;
+    /* background-color: hotpink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+
+}
+
+#page-7box1 {
+    width: 300px;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-7box2 {
+    width: 300px;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-7box3 {
+    width: 300px;
+    height: 400px;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-7box4 {
+    width: 300px;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+
+#page-7box1inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/302c502a-f6d8-4d90-93ca-ee1289ebc2b3/gpt-4-api-general-availability-and-final-update-to-the-completions-api.jpg?trim=0,0,0,0&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-7box2inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/55a3909d-ebea-422f-81d4-fbeb74480e8a/function-calling-and-other-api-updates.jpg?trim=0,0,0,0&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-7box3inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/2e984e4a-e769-416e-b269-a9e576f532ac/introducing-the-chatgpt-app-for-ios.png?trim=0,0,0,0&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-7box4inside {
+    width: 300px;
+    height: 280px;
+
+    background-image: url(https://images.openai.com/blob/b78937ac-9ede-459f-80ab-db50f4f4622a/new-ways-to-manage-your-data-in-chatgpt.png?trim=0,0,0,0&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#page-7box1>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box2>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box3>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box4>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box1>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box2>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box3>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box4>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7horizantalbar {
+    width: 100%;
+    height: 2px;
+}
+
+/* ********************************************page-8************************************************ */
+/* ********************************************page-8************************************************ */
+
+#page-8 {
+    width: 100%;
+    height: 200vh;
+    background-color: #000;
+}
+
+#page-8nav {
+    width: 100%;
+    height: 30vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+#page8-navright {
+    width: 50%;
+    height: 30vh;
+    /* background-color: blue; */
+}
+
+#page8-navleft {
+    width: 50%;
+    height: 30vh;
+    /* background-color: red; */
+}
+
+#page8-navright {
+    padding-top: 30px;
+    font-size: 27px;
+    /* background-color: rebeccapurple; */
+    font-weight: 300;
+}
+
+#page8-navleft h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#page8-navright h5 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#page-8image {
+    width: 100%;
+    height: 150vh;
+    background-image: url(https://images.openai.com/blob/47e8bf4c-ffd5-4b80-b481-568ed1329f97/stangel-2022-1598.jpg?trim=0,0,0,0&width=2600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page-8horizantal {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+/* ************************************page-9*******************************8 */
+/* ************************************page-9*******************************8 */
+
+#page-9 {
+    width: 100%;
+    height: 150vh;
+    background-color: #000;
+    display: flex;
+    padding-top: 20px;
+}
+
+#page-9left {
+    width: 50%;
+    height: 120vh;
+    /* background-color: hotpink; */
+    padding-left: 20px;
+    color: #fff;
+}
+
+#page-9left h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#page-9left h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#page-9left p {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+#page-9right {
+    width: 50%;
+    height: 120vh;
+    background-image: url(https://images.openai.com/blob/734af367-24c1-4043-934c-269a6a3ec47e/stangel-2022-0484.jpg?trim=0,537,40,462&width=2600);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#page-9horizantalbar {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+/* ******************************page-10********************************* */
+/* ******************************page-10********************************* */
+
+#page-10 {
+    width: 100%;
+    height: 80vh;
+    background-color: #000;
+}
+
+#page-10top {
+    width: 100%;
+    height: 30vh;
+    /* background-color: red; */
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+
+}
+
+#page-10top h1 {
+    font-weight: 550;
+}
+
+#page-10bottom {
+    width: 100%;
+    height: 15vh;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page10button {
+    width: 95%;
+    height: 15vh;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+#page10button h1 {
+    font-weight: 400;
+}
+
+#page10button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* ****************************page-11******************************** */
+/* ****************************page-11******************************** */
+#page-11 {
+    width: 100%;
+    height: 60vh;
+    background-color: #000000;
+    display: flex;
+}
+
+#page-11box1 {
+    width: 30%;
+    height: 60vh;
+    /* background-color: rgb(247, 9, 215); */
+}
+
+#page-11box1>img {
+    margin-top: -20px;
+}
+
+#page-11box2 {
+    width: 17.5%;
+    height: 60vh;
+    /* background-color: rgb(220, 243, 17); */
+    line-height: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#page-11box3 {
+    width: 17.5%;
+    height: 60vh;
+    /* background-color: rgb(6, 237, 253); */
+    line-height: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#page-11box4 {
+    width: 17.5%;
+    height: 60vh;
+    /* background-color: rgb(4, 29, 255); */
+    line-height: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#page-11box5 {
+    width: 17.5%;
+    height: 60vh;
+    /* background-color: rgb(5, 255, 25); */
+    line-height: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#page-11horizantalbar {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* **************************************page-12**************************************** */
+/* **************************************page-12**************************************** */
+
+#page-12 {
+    width: 100%;
+    height: 40vh;
+    background-color: #000;
+    display: flex;
+}
+
+#page-12left {
+    width: 30%;
+    height: 40vh;
+    /* background-color: orange; */
+    padding: 10px 10px;
+    color: #fff
+    ;
+}
+
+#page-12right {
+    width: 70%;
+    height: 40vh;
+    /* background-color: yellowgreen; */
+}
+
+#page-12rightnav {
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    padding-top: 10px;
+    gap: 20px;
+   color: #fff;
+}
+
+#page-12rightnav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+
+}
+#page-12rightnav a .line{
+    width: 60px;
+    height: 2px;
+    background-color: #fff;
+}
+#page-12rightnav a:hover .line{
+  opacity: 0;
+}
+/* 
+#page-12rightnav h1 #line{
+    width: 120px;
+    height: 2px;
+    background-color: #fff;
+}
+#page-12rightnav h1:hover #line{
+    opacity: 0;
+} */
+#page-12rightnavbottom {
+    width: 100%;
+    height: 5vh;
+    color: #fff;
+    /* background-color: yellow; */
+}
+#page-12rightnavbottom h4 #line{
+    width: 80px;
+    height: 2px;
+    background-color: #fff;
+}
+#page-12rightnavbottom h4:hover #line{
+  opacity: 0;
+}
+
+/* *******************************page-13****************************** */
+/* *******************************page-13****************************** */
+
+#page-13hr1w{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+#page-13hr1b{
+    width: 100%;
+    height: 25px;
+    background-color: black;
+}
+#page-13hr2w{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+#page-13hr2b{
+    width: 100%;
+    height: 24px;
+    background-color: black;
+}
+#page-13hr3w{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+#page-13hr3b{
+    width: 100%;
+    height: 23px;
+    background-color: black;
+}
+#page-13hr4w{
+    width: 100%;
+    height: 4px;
+    background-color: white;
+}
+#page-13hr4b{
+    width: 100%;
+    height: 22px;
+    background-color: black;
+}
+#page-13hr5w{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+#page-13hr5b{
+    width: 100%;
+    height: 21px;
+    background-color: black;
+}
+#page-13hr6w{
+    width: 100%;
+    height: 6px;
+    background-color: white;
+}
+#page-13hr6b{
+    width: 100%;
+    height: 20px;
+    background-color: black;
+}
+#page-13hr7w{
+    width: 100%;
+    height: 7px;
+    background-color: white;
+}
+#page-13hr7b{
+    width: 100%;
+    height: 19px;
+    background-color: black;
+}
+#page-13hr8w{
+    width: 100%;
+    height: 8px;
+    background-color: white;
+}
+#page-13hr8b{
+    width: 100%;
+    height: 18px;
+    background-color: black;
+}
+#page-13hr9w{
+    width: 100%;
+    height: 9px;
+    background-color: white;
+}
+#page-13hr9b{
+    width: 100%;
+    height: 17px;
+    background-color: black;
+}
+#page-13hr10w{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+#page-13hr10b{
+    width: 100%;
+    height: 16px;
+    background-color: black;
+}
+#page-13hr11w{
+    width: 100%;
+    height: 9px;
+    background-color: white;
+}
+#page-13hr11b{
+    width: 100%;
+    height: 15px;
+    background-color: black;
+}
+#page-13hr12w{
+    width: 100%;
+    height: 8px;
+    background-color: white;
+}
+#page-13hr12b{
+    width: 100%;
+    height: 14px;
+    background-color: black;
+}
+#page-13hr13w{
+    width: 100%;
+    height: 9px;
+    background-color: white;
+}
+#page-13hr13b{
+    width: 100%;
+    height: 13px;
+    background-color: black;
+}
+#page-13hr14w{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+#page-13hr14b{
+    width: 100%;
+    height: 12px;
+    background-color: black;
+}
+#page-13hr15w{
+    width: 100%;
+    height: 11px;
+    background-color: white;
+}
+#page-13hr15b{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+}
+#page-13hr16w{
+    width: 100%;
+    height: 12px;
+    background-color: white;
+}
+#page-13hr16b{
+    width: 100%;
+    height: 9px;
+    background-color: black;
+}
+#page-13hr17w{
+    width: 100%;
+    height: 13px;
+    background-color: white;
+}
+#page-13hr17b{
+    width: 100%;
+    height: 8px;
+    background-color: black;
+}
+#page-13hr18w{
+    width: 100%;
+    height: 14px;
+    background-color: white;
+}
+#page-13hr18b{
+    width: 100%;
+    height: 7px;
+    background-color: black;
+}
+#page-13hr19w{
+    width: 100%;
+    height: 15px;
+    background-color: white;
+}
+#page-13hr19b{
+    width: 100%;
+    height: 6px;
+    background-color: black;
+}
+#page-13hr20w{
+    width: 100%;
+    height: 16px;
+    background-color: white;
+}
+#page-13hr20b{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+#page-13hr21w{
+    width: 100%;
+    height: 17px;
+    background-color: white;
+}
+#page-13hr21b{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+}
+#page-13hr22w{
+    width: 100%;
+    height: 18px;
+    background-color: white;
+}
+#page-13hr22b{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+#page-13hr23w{
+    width: 100%;
+    height: 19px;
+    background-color: white;
+}
+#page-13hr23b{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+#page-13hr24w{
+    width: 100%;
+    height: 20px;
+    background-color: white;
+}
+#page-13hr24b{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+#page-13hr24w{
+    width: 100%;
+    height: 21px;
+    background-color: white;
+}
+#page-13hr25b{
+    width: 100%;
+    height: 0.1px;
+    background-color: rgb(189, 189, 189);
+}
+#page-13hr26w{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+/* *******************************Start Responsive***********************  */
+/* *******************************Start Responsive***********************  */
+/* *******************************Start Responsive***********************  */
+/* *******************************Start Responsive***********************  */
+/* *******************************Start Responsive***********************  */
+/* *******************************Start Responsive***********************  */
+/* *******************************Start Responsive***********************  */
+/* *******************************Start Responsive***********************  */
+/* *******************************Start Responsive***********************  */
+/* *******************************Start Responsive***********************  */
+/* *******************************Start Responsive***********************  */
+/* *******************************Start Responsive***********************  */
+/* *******************************Start Responsive***********************  */
+
+@media only screen and (max-width: 600px) {
+   
+#main {
+}
+
+#page-1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+}
+
+#video1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   
+}
+
+#video1>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-blend-mode: screen;
+}
+
+#overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.671);
+    position: absolute;
+    position: relative;
+}
+
+#navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: #000000e8;
+    display: flex;
+    position: fixed;
+
+
+}
+
+#navbar-part1 {
+    width: 15%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navbar-part1 img {
+    height: 100%;
+
+}
+
+#navbar-part2 {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(43, 255, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+#navbar-part2 a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar-part3 {
+    width: 35%;
+    height: 100%;
+    /* background-color: rgb(0, 183, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+    gap: 20px;
+
+}
+
+#navbar-part3 a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#navbar-part3 button {
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: black;
+    color: #fff;
+
+}
+
+#navbar-part3 button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+#page-1middle {
+    width: 50%;
+    height: 20%;
+    /* background-color: red; */
+    font-size: 2ex;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+
+}
+
+#learnabout button {
+    padding: 6px 12px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 2px solid #ffff;
+    position: absolute;
+    top: 85%;
+    left: 20%;
+}
+
+#learnabout button:hover {
+    background-color: white;
+    color: #000;
+}
+
+#pausevideo button {
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 85%;
+    left: 87%;
+    font-weight: 500;
+}
+
+#pausevideo button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ******************************#page-2********************************* */
+/* ******************************#page-2********************************* */
+
+#page-2 {
+    width: 100%;
+    height: 40vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    font-size: 18px;
+}
+
+#page-2box-1 {
+    width: 350px;
+    height: 200px;
+    /* background-color: red; */
+    color: #fff;
+    position: relative;
+}
+
+#page-2box-2 {
+    width: 350px;
+    height: 200px;
+    /* background-color: yellow; */
+    color: #fff;
+}
+
+#page-2box-3 {
+    width: 360px;
+    height: 200px;
+    /* background-color: blue; */
+    color: #fff;
+}
+
+#page-2horizantalbar {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* ***********************************page-3******************************** */
+/* ***********************************page-3******************************** */
+
+#page-3 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+
+}
+
+#page-3nav {
+    width: 100%;
+    height: 15vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+#page3-navright h4 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#page3-navleft h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#page-3center {
+    width: 100%;
+    height: 70vh;
+    /* background-color: hotpink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+
+}
+
+#page-3box1 {
+    width: 300px;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-3box2 {
+    width: 300px;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-3box3 {
+    width: 300px;
+    height: 400px;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-3box4 {
+    width: 300px;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+
+#page-3box1inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/302c502a-f6d8-4d90-93ca-ee1289ebc2b3/gpt-4-api-general-availability-and-final-update-to-the-completions-api.jpg?trim=0,0,0,0&width=800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-3box2inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/01aa49ea-1f3b-4340-b1b0-ff30857e6058/introducing-superalignment.png?trim=0,0,0,0&width=800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-3box3inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/b38aaf7d-ec65-4194-a4c0-db5131f30dae/3J2A3934_3200.jpg?trim=0,653,0,746&width=800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-3box4inside {
+    width: 300px;
+    height: 280px;
+
+    background-image: url(https://images.openai.com/blob/c74babc6-9e81-4a9c-bd5d-76e6c869aac4/OpenAI_London_Office_Stuart_Bailey_Photography_2023-06-14_0049.jpg?trim=0,1354,0,613&width=800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#page-3box1>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box2>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box3>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box4>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box1>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box2>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box3>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3box4>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-3horizantalbar {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* ***********************************page-4********************************* */
+/* ***********************************page-4********************************* */
+
+#page-4 {
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+}
+
+#page-4left {
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    color: #fff;
+    padding-top: 10px;
+}
+
+#page-4left h1 {
+
+    font-size: 55px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+#page-4right {
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    color: #fff;
+    padding-top: 25px;
+
+}
+
+#page-4right {
+    font-size: 26px;
+    /* text-align: justify; */
+    padding-left: 15px;
+}
+
+#page-4right h5 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* **************************page-5************************************** */
+/* **************************page-5************************************** */
+
+#page-5 {
+    width: 100%;
+    height: 200vh;
+    background-color: #000;
+}
+
+#page-3image {
+    width: 100%;
+    height: 180vh;
+    background-image: url(https://images.openai.com/blob/971cb9d4-66e4-46b0-95d8-f3b57931b08e/stangel-2022-0052.jpg?trim=0,0,0,0&width=2600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#page-5horizantal {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* **************************page-6************************************** */
+/* **************************page-6************************************** */
+#page-6 {
+    width: 100%;
+    height: 120vh;
+    background-color: #000;
+}
+
+#page-6nav {
+    width: 100%;
+    height: 30vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+#page6-navright {
+    width: 50%;
+    height: 30vh;
+    /* background-color: blue; */
+}
+
+#page6-navleft {
+    width: 50%;
+    height: 30vh;
+    /* background-color: red; */
+}
+
+#page6-navright {
+    padding-top: 30px;
+    font-size: 27px;
+    /* background-color: rebeccapurple; */
+    font-weight: 300;
+}
+
+#page6-navleft h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#page6-navright h5 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+#page-6center {
+    width: 100%;
+    height: 70vh;
+    /* background-color: hotpink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+
+}
+
+#page-6box1 {
+    width: 300px;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-6box2 {
+    width: 300px;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-6box3 {
+    width: 300px;
+    height: 400px;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-6box4 {
+    width: 300px;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+
+#page-6box1inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/d4f299e7-2084-43d6-80f5-40e9404f15e2/frontier-ai-regulation-managing-emerging-risks-to-public-safety.png?trim=0,0,0,0&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-6box2inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/373bf52a-5373-4d4e-88fe-7fbf738ec6d1/improving-mathematical-reasoning-with-process-supervision.jpg?trim=0,3439,0,144&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-6box3inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/e1afc745-b554-4785-ad0e-8f9c65e1274f/language-models-can-explain-neurons-in-language-models.png?trim=0,0,0,0&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-6box4inside {
+    width: 300px;
+    height: 280px;
+
+    background-image: url(https://images.openai.com/blob/b5b6da55-f60d-43b3-a40f-902b9baf57e0/gpts-are-gpts-an-early-look-at-the-labor-market-impact-potential-of-large-language-models.png?width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#page-6box1>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box2>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box3>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box4>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box1>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box2>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box3>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6box4>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-6horizantalbar {
+    width: 100%;
+    height: 2px;
+}
+
+/* *****************************************page-7*************************************** */
+/* *****************************************page-7*************************************** */
+
+#page-7 {
+    width: 100%;
+    height: 120vh;
+    background-color: #000;
+}
+
+#page-7nav {
+    width: 100%;
+    height: 30vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+#page7-navright {
+    width: 50%;
+    height: 30vh;
+    /* background-color: blue; */
+}
+
+#page7-navleft {
+    width: 50%;
+    height: 30vh;
+    /* background-color: red; */
+}
+
+#page7-navright {
+    padding-top: 30px;
+    font-size: 27px;
+    /* background-color: rebeccapurple; */
+    font-weight: 300;
+}
+
+#page7-navleft h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#page7-navright h5 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+#page-7center {
+    width: 100%;
+    height: 70vh;
+    /* background-color: hotpink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+
+}
+
+#page-7box1 {
+    width: 300px;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-7box2 {
+    width: 300px;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-7box3 {
+    width: 300px;
+    height: 400px;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#page-7box4 {
+    width: 300px;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+
+#page-7box1inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/302c502a-f6d8-4d90-93ca-ee1289ebc2b3/gpt-4-api-general-availability-and-final-update-to-the-completions-api.jpg?trim=0,0,0,0&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-7box2inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/55a3909d-ebea-422f-81d4-fbeb74480e8a/function-calling-and-other-api-updates.jpg?trim=0,0,0,0&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-7box3inside {
+    width: 300px;
+    height: 280px;
+    background-image: url(https://images.openai.com/blob/2e984e4a-e769-416e-b269-a9e576f532ac/introducing-the-chatgpt-app-for-ios.png?trim=0,0,0,0&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page-7box4inside {
+    width: 300px;
+    height: 280px;
+
+    background-image: url(https://images.openai.com/blob/b78937ac-9ede-459f-80ab-db50f4f4622a/new-ways-to-manage-your-data-in-chatgpt.png?trim=0,0,0,0&width=500&height=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#page-7box1>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box2>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box3>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box4>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box1>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box2>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box3>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7box4>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#page-7horizantalbar {
+    width: 100%;
+    height: 2px;
+}
+
+/* ********************************************page-8************************************************ */
+/* ********************************************page-8************************************************ */
+
+#page-8 {
+    width: 100%;
+    height: 200vh;
+    background-color: #000;
+}
+
+#page-8nav {
+    width: 100%;
+    height: 30vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+#page8-navright {
+    width: 50%;
+    height: 30vh;
+    /* background-color: blue; */
+}
+
+#page8-navleft {
+    width: 50%;
+    height: 30vh;
+    /* background-color: red; */
+}
+
+#page8-navright {
+    padding-top: 30px;
+    font-size: 27px;
+    /* background-color: rebeccapurple; */
+    font-weight: 300;
+}
+
+#page8-navleft h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#page8-navright h5 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#page-8image {
+    width: 100%;
+    height: 150vh;
+    background-image: url(https://images.openai.com/blob/47e8bf4c-ffd5-4b80-b481-568ed1329f97/stangel-2022-1598.jpg?trim=0,0,0,0&width=2600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page-8horizantal {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+/* ************************************page-9*******************************8 */
+/* ************************************page-9*******************************8 */
+
+#page-9 {
+    width: 100%;
+    height: 150vh;
+    background-color: #000;
+    display: flex;
+    padding-top: 20px;
+}
+
+#page-9left {
+    width: 50%;
+    height: 120vh;
+    /* background-color: hotpink; */
+    padding-left: 20px;
+    color: #fff;
+}
+
+#page-9left h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#page-9left h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#page-9left p {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+#page-9right {
+    width: 50%;
+    height: 120vh;
+    background-image: url(https://images.openai.com/blob/734af367-24c1-4043-934c-269a6a3ec47e/stangel-2022-0484.jpg?trim=0,537,40,462&width=2600);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#page-9horizantalbar {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+/* ******************************page-10********************************* */
+/* ******************************page-10********************************* */
+
+#page-10 {
+    width: 100%;
+    height: 80vh;
+    background-color: #000;
+}
+
+#page-10top {
+    width: 100%;
+    height: 30vh;
+    /* background-color: red; */
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+
+}
+
+#page-10top h1 {
+    font-weight: 550;
+}
+
+#page-10bottom {
+    width: 100%;
+    height: 15vh;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page10button {
+    width: 95%;
+    height: 15vh;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+#page10button h1 {
+    font-weight: 400;
+}
+
+#page10button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* ****************************page-11******************************** */
+/* ****************************page-11******************************** */
+#page-11 {
+    width: 100%;
+    height: 60vh;
+    background-color: #000000;
+    display: flex;
+}
+
+#page-11box1 {
+    width: 30%;
+    height: 60vh;
+    /* background-color: rgb(247, 9, 215); */
+}
+
+#page-11box1>img {
+    margin-top: -20px;
+}
+
+#page-11box2 {
+    width: 17.5%;
+    height: 60vh;
+    /* background-color: rgb(220, 243, 17); */
+    line-height: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#page-11box3 {
+    width: 17.5%;
+    height: 60vh;
+    /* background-color: rgb(6, 237, 253); */
+    line-height: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#page-11box4 {
+    width: 17.5%;
+    height: 60vh;
+    /* background-color: rgb(4, 29, 255); */
+    line-height: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#page-11box5 {
+    width: 17.5%;
+    height: 60vh;
+    /* background-color: rgb(5, 255, 25); */
+    line-height: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#page-11horizantalbar {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* **************************************page-12**************************************** */
+/* **************************************page-12**************************************** */
+
+#page-12 {
+    width: 100%;
+    height: 40vh;
+    background-color: #000;
+    display: flex;
+}
+
+#page-12left {
+    width: 30%;
+    height: 40vh;
+    /* background-color: orange; */
+    padding: 10px 10px;
+    color: #fff
+    ;
+}
+
+#page-12right {
+    width: 70%;
+    height: 40vh;
+    /* background-color: yellowgreen; */
+}
+
+#page-12rightnav {
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    padding-top: 10px;
+    gap: 20px;
+   color: #fff;
+}
+
+#page-12rightnav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+
+}
+#page-12rightnav a .line{
+    width: 60px;
+    height: 2px;
+    background-color: #fff;
+}
+#page-12rightnav a:hover .line{
+  opacity: 0;
+}
+/* 
+#page-12rightnav h1 #line{
+    width: 120px;
+    height: 2px;
+    background-color: #fff;
+}
+#page-12rightnav h1:hover #line{
+    opacity: 0;
+} */
+#page-12rightnavbottom {
+    width: 100%;
+    height: 5vh;
+    color: #fff;
+    /* background-color: yellow; */
+}
+#page-12rightnavbottom h4 #line{
+    width: 80px;
+    height: 2px;
+    background-color: #fff;
+}
+#page-12rightnavbottom h4:hover #line{
+  opacity: 0;
+}
+
+/* *******************************page-13****************************** */
+/* *******************************page-13****************************** */
+
+#page-13hr1w{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+#page-13hr1b{
+    width: 100%;
+    height: 25px;
+    background-color: black;
+}
+#page-13hr2w{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+#page-13hr2b{
+    width: 100%;
+    height: 24px;
+    background-color: black;
+}
+#page-13hr3w{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+#page-13hr3b{
+    width: 100%;
+    height: 23px;
+    background-color: black;
+}
+#page-13hr4w{
+    width: 100%;
+    height: 4px;
+    background-color: white;
+}
+#page-13hr4b{
+    width: 100%;
+    height: 22px;
+    background-color: black;
+}
+#page-13hr5w{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+#page-13hr5b{
+    width: 100%;
+    height: 21px;
+    background-color: black;
+}
+#page-13hr6w{
+    width: 100%;
+    height: 6px;
+    background-color: white;
+}
+#page-13hr6b{
+    width: 100%;
+    height: 20px;
+    background-color: black;
+}
+#page-13hr7w{
+    width: 100%;
+    height: 7px;
+    background-color: white;
+}
+#page-13hr7b{
+    width: 100%;
+    height: 19px;
+    background-color: black;
+}
+#page-13hr8w{
+    width: 100%;
+    height: 8px;
+    background-color: white;
+}
+#page-13hr8b{
+    width: 100%;
+    height: 18px;
+    background-color: black;
+}
+#page-13hr9w{
+    width: 100%;
+    height: 9px;
+    background-color: white;
+}
+#page-13hr9b{
+    width: 100%;
+    height: 17px;
+    background-color: black;
+}
+#page-13hr10w{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+#page-13hr10b{
+    width: 100%;
+    height: 16px;
+    background-color: black;
+}
+#page-13hr11w{
+    width: 100%;
+    height: 9px;
+    background-color: white;
+}
+#page-13hr11b{
+    width: 100%;
+    height: 15px;
+    background-color: black;
+}
+#page-13hr12w{
+    width: 100%;
+    height: 8px;
+    background-color: white;
+}
+#page-13hr12b{
+    width: 100%;
+    height: 14px;
+    background-color: black;
+}
+#page-13hr13w{
+    width: 100%;
+    height: 9px;
+    background-color: white;
+}
+#page-13hr13b{
+    width: 100%;
+    height: 13px;
+    background-color: black;
+}
+#page-13hr14w{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+#page-13hr14b{
+    width: 100%;
+    height: 12px;
+    background-color: black;
+}
+#page-13hr15w{
+    width: 100%;
+    height: 11px;
+    background-color: white;
+}
+#page-13hr15b{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+}
+#page-13hr16w{
+    width: 100%;
+    height: 12px;
+    background-color: white;
+}
+#page-13hr16b{
+    width: 100%;
+    height: 9px;
+    background-color: black;
+}
+#page-13hr17w{
+    width: 100%;
+    height: 13px;
+    background-color: white;
+}
+#page-13hr17b{
+    width: 100%;
+    height: 8px;
+    background-color: black;
+}
+#page-13hr18w{
+    width: 100%;
+    height: 14px;
+    background-color: white;
+}
+#page-13hr18b{
+    width: 100%;
+    height: 7px;
+    background-color: black;
+}
+#page-13hr19w{
+    width: 100%;
+    height: 15px;
+    background-color: white;
+}
+#page-13hr19b{
+    width: 100%;
+    height: 6px;
+    background-color: black;
+}
+#page-13hr20w{
+    width: 100%;
+    height: 16px;
+    background-color: white;
+}
+#page-13hr20b{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+#page-13hr21w{
+    width: 100%;
+    height: 17px;
+    background-color: white;
+}
+#page-13hr21b{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+}
+#page-13hr22w{
+    width: 100%;
+    height: 18px;
+    background-color: white;
+}
+#page-13hr22b{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+#page-13hr23w{
+    width: 100%;
+    height: 19px;
+    background-color: white;
+}
+#page-13hr23b{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+#page-13hr24w{
+    width: 100%;
+    height: 20px;
+    background-color: white;
+}
+#page-13hr24b{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+#page-13hr24w{
+    width: 100%;
+    height: 21px;
+    background-color: white;
+}
+#page-13hr25b{
+    width: 100%;
+    height: 0.1px;
+    background-color: rgb(189, 189, 189);
+}
+#page-13hr26w{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+  }
